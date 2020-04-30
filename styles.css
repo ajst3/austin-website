@@ -1,0 +1,32 @@
+.name {
+  font-size: 50px;
+}
+
+.name_block {
+  background-color: lightblue;
+  opacity: .7;
+  left: 125px;
+  right: 0;
+  top: 0;
+  position: absolute;
+  height: 125px;
+}
+
+.top_img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 125px;
+  height: 125px;
+  width: 125px
+}
+
+.sidebar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 125px;
+  width: 125px;
+  background-color: grey;
+  opacity: .7;
+}
