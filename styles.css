@@ -3,30 +3,52 @@
 }
 
 .name_block {
-  background-color: lightblue;
-  opacity: .7;
-  left: 125px;
+  background-image: url("banner2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 10%;
   right: 0;
   top: 0;
   position: absolute;
-  height: 125px;
+  height: 20%;
 }
 
-.top_img {
+.top_img_holder {
   position: absolute;
   left: 0;
   top: 0;
-  right: 125px;
-  height: 125px;
-  width: 125px
+  right: 20%;
+  height: 20%;
+  width: 10%;
+}
+
+.top_img {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .sidebar {
   position: absolute;
   left: 0;
   bottom: 0;
-  top: 125px;
-  width: 125px;
-  background-color: grey;
-  opacity: .7;
+  top: 20%;
+  width: 10%;
+  right: 10%;
+  background-image: url("sbg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_body {
+  position: absolute;
+  left: 10%;
+  bottom:0;
+  top: 20%;
+  right: 0;
+  background-image: url("mainbg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
