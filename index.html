@@ -18,27 +18,96 @@
 
     <div class="sidebar">
       <ul style="list-style-type: square;">
-        <li><a href="index.html">Home</a></li>
+        <li><button class="home">Home</button></li>
         <li><button class="about">About Me</button></li>
+        <li><button class="education">Education/Skills</button></li>
         <li><button class="work">Work History</button></li>
+        <li><button class=projects>Projects</button></li>
         <li><a href="resume.pdf" target="_blank">Resume</a></li>
       </ul>
     </div>
 
     <div class="main_body">
-      <div class="" id="aboutme" style="display:none;">
-        <h1>ABOUT ME</h1>
-        <p>Hello, I am Austin Tercha and I am a Computer Sciene Major
-        from the University of Pittsburgh.</p>
+      <div class="" id="home">
+        <h1>Welcome</h1>
+        <p style="font-size: x-large;">
+          This is the website for Austin Tercha. I am a Computer
+          Science student at the Univeristy of Pittsburgh. My resume,
+          short bio, work history and some projects I have worked on
+          can be found here.
+        </p>
+        <center>
+          <img src="computer1.jpg" alt="cartoon computer"
+          style="height: 15%; width: 15%;">
+        </center>
       </div>
 
-      <div class="" id="workhistory" style="display:none;">
-        <p>test</p>
+      <div class="ohidden" id="aboutme">
+        <h1>ABOUT ME</h1>
+        <p>
+          Hello, I am Austin Tercha and I am a Computer Sciene Major
+          from the University of Pittsburgh.
+        </p>
       </div>
+
+      <div class="ohidden" id="workhistory">
+        <div class="" id="historyinfo">
+          <h1>Information</h1>
+          <p>
+            My work history is ordered from most recent to least recent.
+          </p>
+        </div>
+        <div class="ohidden" id="honeywelljob">
+          <h2>
+            Software Engineer Intern | Honeywell Voice Solutions
+            | Test Automation
+          </h2>
+          <h3>Job Description</h3>
+          <p style="font-size: 18px;">
+            In test automation, I worked on creating scripts that would
+            be used to run automated tests using the industry standard
+            Selenium and Appium libraries. A large part of my duties
+            was contributing code to our own wrapper to Selenium and Appium
+            to make it easier for those writing and reading tests. In
+            addition to working with Selenium and Appium, I worked on the
+            test automation web based dashboard which uses html, css and
+            Javascript.
+          </p>
+        </div>
+        <div class="">
+          <center>
+            <button class="work_button" id="prevJob">Previous</button>
+            <button class="work_button" id="nextJob">Next</button>
+          </center>
+        </div>
+      </div>
+
+      <div class="ohidden" id="projects">
+        <h1>Projects</h1>
+        <h2>Information</h2>
+        <p>
+          This section lays out my major projects that I have done in school
+          or on the side. To see the source code of my side projects
+          see this
+          <a href="https://github.com/ajst3" style="font-size:large;"
+          target="_blank">
+            Github Link
+          </a>
+          .
+        </p>
+      </div>
+
+      <div class="ohidden" id=education>
+        <h1>Education</h1>
+      </div>
+
     </div>
 
   </body>
 
-  <script src="js/update.js"></script>
+  <script type="text/javascript" src="js/update.js"></script>
+  <script type="text/javascript" src="js/workhistory.js"></script>
+
+  </script>
 
 </html>

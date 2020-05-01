@@ -48,10 +48,18 @@
   bottom:0;
   top: 20%;
   right: 0;
+}
+
+body {
   background-image: url("mainbg1.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover
 }
+
+.ohidden {
+  display: none;
+}
+
 a:visited {
   color: blue;
 }
@@ -66,4 +74,12 @@ button {
   color: blue;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.work_button {
+  border: solid;
+  background-color: grey;
+  border-color: grey;
+  text-decoration: none;
+  color: black;
 }
