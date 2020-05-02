@@ -83,3 +83,11 @@ button {
   text-decoration: none;
   color: black;
 }
+
+.skills_table {
+  border-spacing: 10px
+}
+
+.sidebar_list {
+  list-style-type: square;
+}

@@ -36,14 +36,3 @@ const showEducation = () => {
   x = document.getElementById('education');
   x.style.display = 'block';
 }
-
-link = document.querySelector('button.home');
-link.onclick = showHome;
-link = document.querySelector('button.about');
-link.onclick = showAbout;
-link = document.querySelector('button.education');
-link.onclick = showEducation;
-link = document.querySelector('button.work');
-link.onclick = showWork;
-link = document.querySelector('button.projects');
-link.onclick = showProjects;
